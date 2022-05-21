@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nolly-flix/static/css/main.103d889d.css",
+    "main.js": "/nolly-flix/static/js/main.b97e3bda.js",
+    "static/js/787.8ededeae.chunk.js": "/nolly-flix/static/js/787.8ededeae.chunk.js",
+    "index.html": "/nolly-flix/index.html",
+    "main.103d889d.css.map": "/nolly-flix/static/css/main.103d889d.css.map",
+    "main.b97e3bda.js.map": "/nolly-flix/static/js/main.b97e3bda.js.map",
+    "787.8ededeae.chunk.js.map": "/nolly-flix/static/js/787.8ededeae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.103d889d.css",
+    "static/js/main.b97e3bda.js"
+  ]
+}
