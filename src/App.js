@@ -3,25 +3,56 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import styled from "styled-components";
 
-// import { howItWorksData } from "./assets/data";
 
 
 
 function App() {
 
-  const [email, setEmail] = useState("");
-  const [select, setSelect] = useState("CSS-dev");
-  const [showModal, setShowModal] = useState(false);
+  const [movies, setMovies] = useState([
+    {
+      id:1,
+      name:"The Redemption ",
+      like:1,
+      price:100
+    },
+    {
+      id:2,
+      name:"Africa’s Tech Roots ",
+      like:1,
+      price:100
+    },
+    {
+      id:3,
+      name:"The Invisible Man ",
+      like:1,
+      price:100
+    },
+    {
+      id:4,
+      name:"The Complicated Project",
+      like:1,
+      price:100
+    },
+    {
+      id:5,
+      name:"Simply Javascript ",
+      like:1,
+      price:100
+    },
+    {
+      id:6,
+      name:"The New Web ",
+      like:1,
+      price:100
+    },
+   
+  ]);
 
-  const handleChange = (e)=>{
-    setEmail(e.target.value);
-    console.log(email , "am here");
-  }
+
     return (
     <div className="App">
-      
-  
-  <h1>app setup</h1>
+    
+    <h1> Nolly-Flix</h1>
   
 
    
